@@ -1,0 +1,13 @@
+/home/pi/helloworld/bin/Debug/netcoreapp3.1/program
+/home/pi/helloworld/bin/Debug/netcoreapp3.1/program.deps.json
+/home/pi/helloworld/bin/Debug/netcoreapp3.1/program.runtimeconfig.json
+/home/pi/helloworld/bin/Debug/netcoreapp3.1/program.runtimeconfig.dev.json
+/home/pi/helloworld/bin/Debug/netcoreapp3.1/program.dll
+/home/pi/helloworld/bin/Debug/netcoreapp3.1/program.pdb
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.csprojAssemblyReference.cache
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.AssemblyInfoInputs.cache
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.AssemblyInfo.cs
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.csproj.CoreCompileInputs.cache
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.dll
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.pdb
+/home/pi/helloworld/obj/Debug/netcoreapp3.1/program.genruntimeconfig.cache
