@@ -9,8 +9,6 @@ namespace myApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
             var proc = new Process
             {
                 StartInfo = new ProcessStartInfo
@@ -31,14 +29,13 @@ namespace myApp
             }
             var ms = new MemoryStream();
             var sOut = proc.StandardOutput.BaseStream;
-            sOut.CopyTo(ms);
-            string error = proc.StandardError.ReadToEnd();
+            sOut.CopyTo(ms);            
             if (ms.Length == 0)
             {
+                string error = proc.StandardError.ReadToEnd();
                 throw new Exception(error);
             }
             proc.WaitForExit();
-            Console.WriteLine(Encoding.UTF8.GetString(ms.ToArray()));
             Console.WriteLine(ms.Length + " bytes written");
             File.WriteAllBytes("hello.pdf",ms.ToArray());
         }
